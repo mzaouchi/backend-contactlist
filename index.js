@@ -6,7 +6,7 @@ const cors = require('cors')
 const app = express()
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://wondrous-griffin-5a620e.netlify.app',
   credentials: true 
 }))
 
